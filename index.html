@@ -10,10 +10,11 @@
     <script language="javascript" type="text/javascript" src="../basic.js"></script>
 </head>
 <body id="page">
-    <iframe src="sounds/silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
-        <audio id="player" autoplay loop>
-            <source src="sounds/vacation.wav" type="audio/wav">
-        </audio>
+    <audio id="audioID" loop> <source src="sounds/vacation.wav"  type="audio/wav"></audio>
+    <script>
+    var myaudio = document.getElementById("audioID").autoplay = true;
+    </script>
+
     <em class="PTAG pull-right"></em>
     <a class="CPTAG CFTAG"><img src="images/tree.gif" class="left" width="200">
     <a class="CPTAG CFTAG"><img src="images/dance.gif" class="middle" width="720">
