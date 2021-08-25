@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
     <meta name="description" content="">
     <title>Vacation</title>
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
     <script language="javascript" type="text/javascript" src="../jQuery.min.js"></script>
     <script language="javascript" type="text/javascript" src="../basic.js"></script>
 </head>
 <body id="page">
-    <audio controls loop>
-        <source src="vacation.wav" type="audio/wav">
-        Your browser does not support the audio element.
-    </audio>
+    <iframe src="sounds/silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
+        <audio id="player" autoplay loop>
+            <source src="sounds/vacation.wav" type="audio/wav">
+        </audio>
     <em class="PTAG pull-right"></em>
     <a class="CPTAG CFTAG"><img src="images/tree.gif" class="left" width="200">
     <a class="CPTAG CFTAG"><img src="images/dance.gif" class="middle" width="720">
